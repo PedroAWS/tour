@@ -1,0 +1,54 @@
+{
+    "default": {
+        "firstScene": "pan0",
+        "autoLoad": true,
+        "showControls": false,
+        "sceneFadeDuration": 1000,
+        "friction": 0.2,
+        "touchPanSpeedCoeffFactor": 0.4
+    },
+    "scenes": {
+        "pan0": {
+            "pitch": -47.46316474091488,
+            "yaw": -123.43632199763533,
+            "type": "equirectangular",
+            "panorama": "pan0.png",
+            "minPitch": -120.0,
+            "maxPitch": 36.0,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -18.489828894213076,
+                    "yaw": -8.790536769159829,
+                    "createTooltipArgs": {
+                        "text": "board_college"
+                    }
+                },
+                {
+                    "type": "info",
+                    "pitch": -5.531999846028835,
+                    "yaw": -61.098260189976735,
+                    "createTooltipArgs": {
+                        "text": "board_park"
+                    }
+                },
+                {
+                    "type": "info",
+                    "pitch": -3.811329614188723,
+                    "yaw": -171.28468727759233,
+                    "createTooltipArgs": {
+                        "text": "board_mall"
+                    }
+                },
+                {
+                    "type": "info",
+                    "pitch": -39.70012773526997,
+                    "yaw": -116.69718714336615,
+                    "createTooltipArgs": {
+                        "text": "board_starpool"
+                    }
+                }
+            ]
+        }
+    }
+}
